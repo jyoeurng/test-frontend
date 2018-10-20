@@ -5,12 +5,12 @@
 4. Exécuter la commande "npm run start"
 5. Aller sur le site : http://127.0.0.1:8000
 
-# Ci-dessous quelques commandes à exécuter pour lancer le serveur ou construire le paquet de distribution.
-## Pour la construction du paquet de distribution :
+## Ci-dessous quelques commandes à exécuter pour lancer le serveur ou construire le paquet de distribution.
+### Pour la construction du paquet de distribution :
 * npm run build
-## Pour le lancement du serveur :
+### Pour le lancement du serveur :
 * npm run serve
-## Pour la construction du paquet de distribution et le lancement du serveur :
+### Pour la construction du paquet de distribution et le lancement du serveur :
 * npm run start
 
 ## Remarque :
