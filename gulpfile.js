@@ -17,7 +17,7 @@ gulp.task('sass', function () {
 
 // Listen event from scss files
 gulp.task('sass:watch', function () {
-  gulp.watch('./src/scss/*.scss', ['sass']);
+  gulp.watch('./src/scss/**/*.scss', ['sass']);
 });
 
 // Minify css
@@ -31,7 +31,7 @@ gulp.task('minify-css', function () {
 
 // Minify js
 gulp.task('minify-js', function () {
-    return gulp.src(['./src/bootstrap.js', './src/js/script.js'])
+    return gulp.src(['./src/bootstrap.js', './src/js/*.js'])
             .pipe(uglify())
             .pipe(concat('main.js'))
             .pipe(rename({suffix: '.min'}))

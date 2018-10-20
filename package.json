@@ -1,5 +1,5 @@
 {
-    "name": "test-frontend",
+    "name": "testChanel",
     "version": "1.0.0",
     "keywords": [
         "util",
@@ -11,9 +11,9 @@
     "author": "",
     "contributors": [],
     "scripts": {
-        "build": "gulp",
+        "build": "npm install && gulp",
         "serve": "ws -d dist -s index.html --hostname 127.0.0.1 --port 8000",
-        "start": "npm install && npm run build && npm run serve"
+        "start": "npm run build && npm run serve"
     },
     "dependencies": {
         "gulp-rename": "^1.4.0",

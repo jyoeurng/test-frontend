@@ -2,6 +2,25 @@ body {
   background-color: #000000;
   font-family: abchanel-pb-s, sans-serif; }
 
+.btn-addon {
+  position: relative; }
+  .btn-addon span {
+    font-size: 0.75rem;
+    padding: 0;
+    position: absolute;
+    right: 20px;
+    text-transform: uppercase;
+    top: 10px; }
+  .btn-addon .btn-custom {
+    background-color: transparent;
+    border: 1px solid transparent;
+    height: auto;
+    outline: none;
+    padding: 0;
+    position: absolute;
+    right: -15px;
+    top: -5px; }
+
 header {
   background-color: #ffffff;
   border-top: 0.5rem solid #000000;
@@ -21,10 +40,9 @@ header {
     margin: 1.5rem 0; }
     header .icons .icon {
       float: left;
-      font-size: 1.2rem;
+      font-size: 1rem;
       margin-left: 0.75rem;
-      margin-right: 0.75rem;
-      width: 32px; }
+      margin-right: 0.75rem; }
 
 #menu {
   background-color: #ffffff;
@@ -59,10 +77,11 @@ header {
     max-width: 100%; }
   .slides .slide {
     float: left;
+    position: relative;
     width: 100%; }
     .slides .slide .parallax {
       background: transparent;
-      height: 45rem;
+      height: 40em;
       overflow: hidden;
       position: relative;
       z-index: 1; }
@@ -76,13 +95,14 @@ header {
       bottom: 3rem;
       left: 0;
       position: absolute;
-      right: 0; }
+      right: 0;
+      z-index: 2; }
       .slides .slide .content .flex {
         display: flex;
         flex-direction: column;
         margin: auto;
         text-align: center;
-        width: 50%; }
+        width: 80%; }
         .slides .slide .content .flex h1.title {
           font-size: .75rem;
           line-height: 3rem;
@@ -112,25 +132,6 @@ header {
         .slides .slide .content .flex a.btn-see-more:hover::after {
           opacity: 1;
           transition: all 800ms linear; }
-
-.btn-addon {
-  position: relative; }
-  .btn-addon span {
-    font-size: 0.75rem;
-    padding: 0;
-    position: absolute;
-    right: 20px;
-    text-transform: uppercase;
-    top: 10px; }
-  .btn-addon .btn-custom {
-    background-color: transparent;
-    border: 1px solid transparent;
-    height: auto;
-    outline: none;
-    padding: 0;
-    position: absolute;
-    right: -15px;
-    top: -5px; }
 
 #subfooter {
   background-color: #ffffff;

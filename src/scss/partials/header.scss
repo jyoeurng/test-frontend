@@ -1,0 +1,53 @@
+header {
+    background-color: $color-primary;
+    border-top: .5rem solid $black;
+    height: 5rem;
+    margin: auto;
+    text-transform: uppercase;
+    .logo {
+        margin: 1.5rem 0;
+        min-width: 2.25rem;
+        text-align: center;
+        width: 100%;
+        img {
+            background: transparent;
+            height: auto;
+            width: 180px;
+        }
+    }
+    .icons {
+        margin: 1.5rem 0;
+        .icon {
+            float: left;
+            font-size: 1rem;
+            margin-left: 0.75rem;
+            margin-right: 0.75rem;
+        }
+    }
+
+}
+#menu {
+    background-color: $color-primary;
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5rem;
+    text-transform: uppercase;
+    z-index: 1;
+    .nav-link {
+        color: #1d1d1d;
+        font-size: 0.9rem;
+        font-weight: 600;
+        height: 3rem;
+        justify-content: space-between;
+        letter-spacing: normal;
+        margin-top: 0.75rem;
+        padding: .4rem 1rem;
+        text-align: left;
+        vertical-align: middle;
+    }
+    .active{
+        color: red;
+    }
+}

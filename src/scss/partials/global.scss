@@ -1,0 +1,25 @@
+body {
+    background-color: $black;
+    font-family: $font-family;
+}
+.btn-addon {
+    position: relative;
+    span {
+        font-size: 0.75rem;
+        padding: 0;
+        position: absolute;
+        right: 20px;
+        text-transform: uppercase;
+        top: 10px;
+    }
+    .btn-custom {
+        background-color: transparent;
+        border: 1px solid transparent;
+        height: auto;
+        outline: none;
+        padding: 0;
+        position: absolute;
+        right: -15px;
+        top: -5px;
+    }
+}
