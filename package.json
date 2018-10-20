@@ -1,0 +1,35 @@
+{
+    "name": "test-frontend",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "",
+    "contributors": [],
+    "scripts": {
+        "build": "gulp",
+        "serve": "ws -d dist -s index.html --hostname 127.0.0.1 --port 8000",
+        "start": "npm install && npm run build && npm run serve"
+    },
+    "dependencies": {
+        "gulp-rename": "^1.4.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-useref": "^3.1.5",
+        "local-web-server": "^2.6.0",
+        "useref": "^1.4.1"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-clean": "^0.4.0",
+        "gulp-clean-css": "^3.10.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-concat-replace": "^1.0.5",
+        "gulp-html-replace": "^1.6.2",
+        "gulp-refresh": "^1.1.0",
+        "gulp-uglify": "^3.0.1"
+    }
+}
